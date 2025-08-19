@@ -10,22 +10,23 @@
 
 {% block title %}
 
-    Flask Demo
+    Home Page
 
 {% endblock %}
 
 
 {% block content %}
 
-    <h1>Flask Demo App with Turso DB</h1>
+    <h1>This home page will show users a page with a list,  which can be edited, by either deleting them, or editing their details.</h1>
 
-    <p>This is a simple Flask app that connects to a Turso database to save and retrieve data. This can be used as the basis of your web app.</p>
+    <p>Functionallity should be, able to see and view each indavidual task.
+    it should have the fuctionallity to be edited, and it should have certain key components like being able to swith tab, date, and time.</p>
 
-    <p>It includes...</p>
+    <p>steps for this page</p>
 
     <ul>
-        <li>Example routes</li>
-        <li>Example static pages</li>
+        <li>make the blueprint layout</li>
+        <li>Make example static pages</li>
         <li>Missing page and server error pages</li>
         <li>DB connection and error handling</li>
         <li>Example CRUD actions: Create and Delete</li>
@@ -36,3 +37,19 @@
 
 {% endblock %}
 
+{% block content %}
+
+
+        <h3>Chores/test</h3>
+
+        <form action="/add" method="POST">
+
+            <input
+                type="text"
+                name="name"
+                placeholder="name of task"
+                required
+            >
+        </form> 
+
+{% end content %}
