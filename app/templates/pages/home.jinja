@@ -33,9 +33,43 @@
         <li>Flash messages for information</li>
     </ul>
 
-    <a href="/things" role="button">Go to the Things...</a>
+   
 
 {% endblock %}
+ 
+  <article>
+
+        <ul>
+            {% for chore in chores %}
+
+                <li class="chore">
+
+                    {{ chore.priority }} 
+                    
+                    {{ chore.name }}
+                
+                    
+                    {% if task.completed %} 
+                        <a href="/incomplete/{{ chore.id }}">🗹</a>
+                    {% else %} 
+                        <a href ="/complete/{{ chore.id }}">☐</a>
+                    {% endif %}
+                        <a href ="/delete/{{ chore.id }}">Delete</a>
+            
+                        
+                </li>
+
+                 
+            {% else %}
+
+                <p>None!</p>
+
+            {% endfor %}
+        
+        </ul>
+
+    </article>
+
 
 {% block content %}
 
@@ -47,9 +81,13 @@
             <input
                 type="text"
                 name="name"
-                placeholder="name of task"
+                placeholder="name of chore"
                 required
             >
         </form> 
+  
+            {#--add the swith to people tab here--#}     {#--add the swith to info tab here--#}
+            
+
 
 {% end content %}
