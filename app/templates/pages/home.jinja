@@ -43,7 +43,7 @@
                  
             {% else %}
 
-                <p>None</p>
+                <p>None "try adding a chore!"</p>
 
             {% endfor %}
         
@@ -51,7 +51,7 @@
 
     </article>
 
-
+            
 
         <h3>Chores/test</h3>
 
@@ -64,6 +64,19 @@
                 required
             >
         </form> 
+
+
+        <form action="/add" method="POST">
+
+            <input
+                type="number"
+                name="priority"
+                min="0"
+                max="100"
+                placeholder="priority of this chore?"
+            >
+        </form> 
+  
   
             {#--add the swith to people tab here--#}     {#--add the swith to info tab here--#}
             
