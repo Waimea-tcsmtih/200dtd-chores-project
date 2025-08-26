@@ -13,8 +13,12 @@ Develop a prototype that simulates the key functionality of the system, then tes
 ## Initial Database Design
 
 Replace this text with notes regarding the DB design.
-
-![SCREENSHOT OF DB DESIGN](screenshots/example.png)
+this app will be the creation of a chore/task list, which can be edited with.
+this design will have 3 pages, each with their own purpose.
+first, the main page is used to make, add, delete, or edit chores set by the party leader.
+the second, is the party page, you will be able to make multiple party's and either be a member, or host one. you may view and edit your own party, and set specific tasks/chores to them.
+the third page will require prior use of both other tabs. this tab is called the history tab, it allows anyone in the party to see who checked off a chore, the date and time of its completion too.
+![Alt text](image.png)
 
 
 ---

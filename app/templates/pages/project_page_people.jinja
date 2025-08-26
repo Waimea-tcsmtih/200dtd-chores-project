@@ -3,6 +3,8 @@
 {% extends 'pages/base.jinja' %}
 
 
+
+
 {% block title %}
 
     People page
@@ -16,53 +18,58 @@
      along with the simple settings to delete, add, and change details about the indavidual person.</h1>
 
 
+{% endblock %}
     <article>
 
         <ul>
-            {% for thing in things %}
+            {% for person in party %}
 
-                <li>
-                    <a href="/thing/{{ thing.id }}">
-                        {{ thing.name }}
-                    </a>
+                <li class="chore">
+
+                    
+                    {{ person.name }}
+                
                 </li>
 
+                 
             {% else %}
 
-                <p>None!</p>
+                <p>None "try adding a member!"</p>
 
             {% endfor %}
+        
         </ul>
 
     </article>
 
+            
 
-    <article>
-
-        <h3>Add a New Thing...</h3>
+        <h3>Party/test</h3>
 
         <form action="/add" method="POST">
 
             <input
                 type="text"
                 name="name"
-                placeholder="Name of new thing"
+                placeholder="name of person"
                 required
             >
+        </form> 
+
+
+        <form action="/add" method="POST">
 
             <input
                 type="number"
-                name="price"
+                name="host of party"
                 min="0"
-                placeholder="Price in dollars"
-                required
+                max="1"
+                placeholder="Are they a party leader?"
             >
+        </form> 
+  
+  
+            
 
-            <button>Add the Thing</button>
-
-        </form>
-
-    </article>
 
 {% endblock %}
-

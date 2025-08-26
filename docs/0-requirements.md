@@ -2,13 +2,12 @@
 
 ## Identified Problem or Need
 
-Replace this text with a clearly stated problem or need that exists that your project will attempt to solve / fulfil.
+My family has a problem with our chores, and who completes them, and what we need to do.
 
 
 ## End-User Requirements
 
-Replace this text with a description of your typical end-users and their specific needs / expectations / requirements.
-
+My mother would like a app that allows us to add and delete and edit chores. it need to show the time and date, and allow for this to be highlighted to the 
 
 ## Proposed Solution
 
