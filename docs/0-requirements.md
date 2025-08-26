@@ -7,12 +7,11 @@ My family has a problem with our chores, and who completes them, and what we nee
 
 ## End-User Requirements
 
-My mother would like a app that allows us to add and delete and edit chores. it need to show the time and date, and allow for this to be highlighted to the 
+My mother would like a app that allows us to add and delete and edit chores. it need to show the time and date, and it should allow us to see the other people in our household, and the history.
 
 ## Proposed Solution
 
-Replace this text with a brief statement about the system that you intend to create, including the key functionality it should have.
-
+Ill make its app that has three sections, one to make, edit, view, delete, and add chores/tasks, a second tab to keep track on  the the people in the household/party, and one last tab to keep track of all chores that have been completed in a certain timeline set by the house/party owner. 
 
 ---
 
