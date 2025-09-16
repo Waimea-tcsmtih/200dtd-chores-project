@@ -30,7 +30,7 @@ init_datetime(app)  # Handle UTC dates in timestamps
 #-----------------------------------------------------------
 @app.get("/")
 def index():
-    return render_template("pages/home.jinja")
+    return render_template("pages/project_page_home.jinja")
 
 
 #-----------------------------------------------------------
@@ -72,7 +72,7 @@ def show_one_thing(id):
         if result.rows:
             # yes, so show it on the page
             thing = result.rows[0]
-            return render_template("pages/thing.jinja", thing=thing)
+            return render_template("pages/thing.jinja"  )
 
         else:
             # No, so show error
