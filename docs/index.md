@@ -1,19 +1,20 @@
-# PROJECT NAME HERE
+# Chores Caulk list
 
-by YOUR NAME HERE
+by Taine Smith
 
 
 ---
 
 ## Project Description
 
-Replace this text with your project description and list the key features below
+this project is for making list of tasks or chores. The feature this has are
+-adding, and deleting task you set, for you and the members of the party\
+-party feature which allows you to add others to your list
+-hes quality of live features, like notifications on when the time set for chores needs to be completed, or is close/passed
+-history tab, to see completed chores, seeing who completed them, and when
 
-- Feature 1 here
-- Feature 2 here
-- Feature 3 here
-- Feature 4 here
-- Feature 5 here
+
+(This project was unfinished, and does not reach any standards for both assessments this project was going towards)
 
 
 ---
